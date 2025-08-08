@@ -88,7 +88,7 @@ project/
 
 
 
-##⚠️ Security Warning
+## ⚠️ Security Warning
 
 Do not use browser extensions while using this tool (DKMIS-OGAOD).
 
