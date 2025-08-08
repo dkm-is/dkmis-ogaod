@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8" />
+  <title>DKMIS-OGAOD | Offline Google Authenticator On Desktop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <!-- External CSS link -->
+  <link id="theme-style" rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+  <a href="https://www.dkmis.com/article/95-DKMIS-OGAOD" target="_blank" rel="noopener noreferrer">
+    <img src="logo.png" alt="DKMIS Logo" style="height: 150px;" />
+  </a>
+</div>
+    <div style="text-align: center; margin-bottom: 1em;">
+    <button onclick="toggleTheme()" id="theme-toggle">🌙 Dark Mode</button>
+    </div>
+    <h1>DKMIS-OGAOD | Offline Google Authenticator On Desktop</h1>
+    <center> <b>DKMIS QR కోడ్ స్కానర్ & OTP జనరేటర్ <br> QR కోడ్ ఇమేజ్‌ని అప్‌లోడ్ చేయండి లేదా సీక్రెట్ కీని ఎంటర్ చేయండి</b> </center>
+
+    <input type="file" id="qr-file-input" accept="image/*">
+    <input type="text" id="secret-key-input" placeholder="సీక్రెట్ కీని ఇక్కడ ఎంటర్ చేయండి">
+    <button id="submit-key-button">సబ్మిట్ చేయండి</button>
+
+    <div id="image-processing-area" style="display: none;">
+      <canvas id="qr-canvas" style="display: block; margin: 1em auto;"></canvas>
+    </div>
+
+    <div id="otp-display-section">
+      <p>జనరేట్ అయిన OTP:</p>
+      <div id="otp-value">------</div>
+      <div id="otp-timer">
+        <div id="otp-timer-bar"></div>
+      </div>
+    </div>
+
+    <div class="license">
+      ఈ ప్రాజెక్ట్ MIT లైసెన్స్ క్రింద విడుదల చేయబడింది. మరిన్ని వివరాలకు LICENSE ఫైల్ చూడండి.
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="crypto-js.min.js"></script>
+  <script src="jsQR.min.js"></script>
+  <script src="js-otp.js"></script>
+  <script src="main.js"></script>
+  <script>
+  function toggleTheme() {
+    const themeLink = document.getElementById('theme-style');
+    const toggleBtn = document.getElementById('theme-toggle');
+    
+    if (themeLink.getAttribute('href') === 'style.css') {
+      themeLink.setAttribute('href', 'style_dark_mode.css');
+      toggleBtn.textContent = '☀️ Light Mode';
+    } else {
+      themeLink.setAttribute('href', 'style.css');
+      toggleBtn.textContent = '🌙 Dark Mode';
+    }
+  }
+</script>
+
+</body>
+</html>

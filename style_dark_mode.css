@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('fonts/Nunito-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #000;
+  color: #fff;
+  transition: background 0.5s ease-in-out;
+}
+
+.container {
+  max-width: 600px;
+  margin: 4em auto;
+  padding: 2em;
+  background-color: #111;
+  border-radius: 1em;
+  /* White border - heavier and clearer */
+  border: 3px solid rgba(255, 255, 255, 0.6);
+
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 1em;
+}
+
+input[type="file"],
+input[type="text"],
+button {
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.75em;
+  font-size: 1em;
+  border: 1px solid #444;
+  border-radius: 0.5em;
+  background-color: #222;
+  color: #fff;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #fff;
+  outline: none;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+  transform: scale(1.02);
+}
+
+#otp-value {
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1em;
+  letter-spacing: 2px;
+}
+
+#otp-timer {
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  margin-top: 0.5em;
+  overflow: hidden;
+}
+
+#otp-timer-bar {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transition: width 1s linear;
+}
+
+.license {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+  color: #777;
+}
+
+@media (max-width: 700px) {
+  .container {
+    margin: 1em;
+    padding: 1.5em;
+  }
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 1em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: ;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  color: ;
+  font-size: 1.2em;
+}
