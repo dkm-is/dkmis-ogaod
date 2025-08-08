@@ -63,7 +63,43 @@ project/
 
 ## 📸 Screenshots
 ![DKMIS ScreenShot](dkmis-ogaod-01.png)
+
+
 ![DKMIS ScreenShot](dkmis-ogaod-02.png)
+
+
 ![DKMIS ScreenShot](dkmis-ogaod-03.png)
+
+
 ![DKMIS ScreenShot](dkmis-ogaod-04.png)
+
+
+
+⚠️ Security Warning
+
+Do not use browser extensions while using this tool (DKMIS-OGAOD).
+
+    Some browser extensions can read, modify, or steal data from web pages — including QR codes and OTPs.
+
+    Your QR Code / Secret Key might be exposed to malicious extensions.
+
+    For maximum security:
+
+        ✅ Use this tool offline only (open the HTML file locally).
+
+        ❌ Do not use browser extensions like QR readers, password managers, or developer tools when using this page.
+
+        ✅ Use it in a private/incognito window, or even better, on a secure desktop environment without internet access.
+
+Stay safe – your 2FA secrets are sensitive!
+
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+- ✅ Free for personal and educational use
+- ❌ Commercial use is prohibited
+- ❌ No modifications or derivative works allowed
+- 📌 Proper credit to "DKMIS-OGAOD" must be given
 
