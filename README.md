@@ -42,7 +42,8 @@ Visit the official article:
 
 ## 🧾 License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ---
 
@@ -68,7 +69,9 @@ project/
 ![DKMIS ScreenShot](dkmis-ogaod-02.png)
 
 
+
 ![DKMIS ScreenShot](dkmis-ogaod-03.png)
+
 
 
 ![DKMIS ScreenShot](dkmis-ogaod-04.png)
