@@ -62,4 +62,8 @@ project/
 
 
 ## 📸 Screenshots
+![DKMIS ScreenShot](dkmis-ogaod-01.png)
+![DKMIS ScreenShot](dkmis-ogaod-02.png)
+![DKMIS ScreenShot](dkmis-ogaod-03.png)
+![DKMIS ScreenShot](dkmis-ogaod-04.png)
 
