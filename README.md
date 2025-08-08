@@ -47,4 +47,19 @@ This project is released under the [MIT License](LICENSE).
 ---
 
 ## 📂 Folder Structure
+project/
+├── index.html
+├── style.css
+├── style_dark_mode.css
+├── js-otp.js
+├── main.js
+├── jsQR.min.js
+├── crypto-js.min.js
+├── logo.png
+└── fonts/
+├── Nunito-Regular.ttf
+└── Nunito-Bold.ttf
+
+
+## 📸 Screenshots
 
