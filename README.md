@@ -103,3 +103,16 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-N
 - ❌ No modifications or derivative works allowed
 - 📌 Proper credit to "DKMIS-OGAOD" must be given
 
+
+## 🙏 Support & Donations
+
+If you find this project helpful, consider supporting its development:
+
+- 💙 UPI: `your-upi-id@bank`
+- ☕ [Buy Me a Coffee](https://www.buymeacoffee.com/yourusername)
+- 💰 [PayPal](https://paypal.me/yourusername)
+
+Your support helps keep this project free and actively maintained.
+
+
+© 2025 [DKMIS](https://www.dkmis.com)
