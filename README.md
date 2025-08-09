@@ -49,6 +49,7 @@ This project is released under the [Creative Commons Attribution-NonCommercial-N
 
 ## 📂 Folder Structure
 project/
+
 ├── index.html
 
 ├── style.css
@@ -67,9 +68,9 @@ project/
 
 └── fonts/
 
-├── Nunito-Regular.ttf
+├───── Nunito-Regular.ttf
 
-└── Nunito-Bold.ttf
+└───── Nunito-Bold.ttf
 
 
 ## 📸 Screenshots
